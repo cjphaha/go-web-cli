@@ -1,0 +1,35 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "接口文档",
+        "title": "MyAPI",
+        "contact": {
+            "name": "氕氘氚",
+            "email": "caorcjp@gmail.com"
+        },
+        "license": {},
+        "version": "0.0.1"
+    },
+    "host": "http://localhost:5800/",
+    "basePath": "api/",
+    "paths": {
+        "/HelloWorld": {
+            "get": {
+                "description": "这里是详细描述",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "获取信息"
+                ],
+                "summary": "HelloWorld",
+                "responses": {
+                    "200": {}
+                }
+            }
+        }
+    }
+}

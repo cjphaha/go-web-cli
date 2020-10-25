@@ -17,3 +17,9 @@ cd go-web-cli
 go run main.go
 ```
 
+## swagger
+
+```bash
+http://localhost:5800/swagger/index
+```
+

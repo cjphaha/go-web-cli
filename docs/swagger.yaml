@@ -1,0 +1,24 @@
+basePath: api/
+host: http://localhost:5800/
+info:
+  contact:
+    email: caorcjp@gmail.com
+    name: 氕氘氚
+  description: 接口文档
+  license: {}
+  title: MyAPI
+  version: 0.0.1
+paths:
+  /HelloWorld:
+    get:
+      consumes:
+      - application/json
+      description: 这里是详细描述
+      produces:
+      - application/json
+      responses:
+        "200": {}
+      summary: HelloWorld
+      tags:
+      - 获取信息
+swagger: "2.0"
